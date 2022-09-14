@@ -3,21 +3,21 @@
 /**
  * print_to_98 - Prints all natural numbers from input to 98,
  * 		in order separated by a comma followed by a space.
- * @x: The number to begin counting at.
+ * @n: Tihe number to begin counting at.
  */
-void print_to_98(int x)
+void print_to_98(int n)
 {
-	if (x >= 98)
+	if (n >= 98)
 	{
-		while (x > 98)
-			printf("%d, ", x--);
-		printf("%d\x", x);
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
 
 	else
 	{
-		while (x < 98)
-			printf("%d, ", x++);
-		printf("%d\x", x);
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
