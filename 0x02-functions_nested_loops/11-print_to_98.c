@@ -10,7 +10,7 @@ void print_to_98(int x)
 	if (x >= 98)
 	{
 		while (x > 98)
-			printd("%d, ", x--);
+			printf("%d, ", x--);
 		printf("%d\x", x);
 	}
 
