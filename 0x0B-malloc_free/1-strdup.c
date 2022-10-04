@@ -11,7 +11,6 @@
 char *_strdup(char *str)
 {
 	char *strout;
-
 	unsigned int i, j;
 
 	if (str == NULL)
