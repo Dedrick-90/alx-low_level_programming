@@ -1,21 +1,20 @@
 #include <stdio.h>
+#include <stulib.h>
 
 /**
  * main - prints all arguments it recieves
  * @argc: number of arguments passed to the function
- * @argv: argument vector of pointers to strings
+ * @argv: argument array
  *
- * Return: Always 0 (Success)
+ * Return: Always (0)
  */
 int main(int argc, char *argv[])
 {
-	int count = 0;
+	int n;
 
-	if (argc > 0)
+	for (n = 0; n < argc; n++)
 	{
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-		}
+		printf("%s\n", argv[n]);
 	}
+	return (0);
 }
