@@ -18,6 +18,7 @@ if (argc != 2)
 	return (1);
 }
 cents = atoi(argv[1]);
+
 while (cents > 0)
 {
 	coins++;
