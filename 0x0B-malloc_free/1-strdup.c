@@ -1,4 +1,4 @@
-#include "main.h"
+#include "Main.h"
 
 /**
  * _strdup - returns a pointer to a newly allocated
