@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stulib.h>
+#include <stdlib.h>
 
 /**
- * main - prints all arguments it recieves
- * @argc: number of arguments passed to the function
- * @argv: argument array
+ * main - prints all arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * Return: Always (0)
+ * Return: always 0
  */
 int main(int argc, char *argv[])
 {
