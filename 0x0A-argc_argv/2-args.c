@@ -5,15 +5,17 @@
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int count = 0;
 
-	for (i = 0, i < argc; i++)
+	if (argc > 0)
 	{
-		printf("%s\n", argv[i]);
+		while (count < argc)
+		{
+			printf("%s\n", argv[count]);
+		}
 	}
-	return (0);
 }
