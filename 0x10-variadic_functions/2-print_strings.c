@@ -3,9 +3,9 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - print strings, followed by a new line.
- * @separator: to print between strings
- * @n: number of string to be printed
+ * print_strings - prints strings, followed by a new line.
+ * @separator: separates between strings
+ * @n: number of strings to be printed
  *
  * Return: void
  */
@@ -24,8 +24,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		else
 			printf("(nil)");
 		if (i < n - 1 && separator)
-			print("%s", separator);
+			printf("%s", separator);
 	}
 	printf("\n");
 	va_end(valist);
 }
+
+
+
