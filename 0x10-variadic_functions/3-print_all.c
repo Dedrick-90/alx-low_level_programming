@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
-
 /**
  * print_c - print a char
- * @c: char to to be printed
+ * @c: char to print
  *
  * Return: void
  */
@@ -16,7 +15,7 @@ void print_c(va_list c)
 
 /**
  * print_s - prints a string
- * @s: string to be printed
+ * @s: string to print
  *
  * Return: void
  */
@@ -30,8 +29,8 @@ void print_s(va_list s)
 }
 
 /**
- * print_i prints an integer
- * @i: int to be printed
+ * print_i - prints an int
+ * @i: int to print
  *
  * Return: void
  */
@@ -41,8 +40,8 @@ void print_i(va_list i)
 }
 
 /**
- * print_f - prints the float
- * @f: float to be printed
+ * print_f - prints a float
+ * @f: float to print
  *
  * Return: void
  */
@@ -53,7 +52,7 @@ void print_f(va_list f)
 
 /**
  * print_all - prints anything
- * @format: list of arg types passed to the func
+ * @format: list of argument types passed to the function
  *
  * Return: void
  */
