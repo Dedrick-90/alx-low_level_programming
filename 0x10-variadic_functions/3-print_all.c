@@ -31,9 +31,9 @@ void print_s(va_list s)
 
 /**
  * print_i prints an integer
- * @i: int tp be printed
+ * @i: int to be printed
  *
- * return: void
+ * Return: void
  */
 void print_i(va_list i)
 {
@@ -60,7 +60,6 @@ void print_f(va_list f)
 void print_all(const char * const format, ...)
 {
 	unsigned int i, j;
-
 	print_t p[] = {
 		{"c", print_c},
 		{"s", print_s},
@@ -69,7 +68,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 	va_list valist;
-	char *separator = " ";
+	char *separator = "";
 
 	va_start(valist, format);
 	i = 0;
