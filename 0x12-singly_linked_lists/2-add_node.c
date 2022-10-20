@@ -8,6 +8,7 @@
  *
  * Return: if the function fails, return NULL
  */
+
 list_t *add_node(list_t **head, const char *str)
 {
 	char *dup;
@@ -18,7 +19,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	dup == strdup(str);
+	dup = strdup(str);
 	if (dup == NULL)
 	{
 		free(new);
